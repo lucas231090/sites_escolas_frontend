@@ -57,28 +57,44 @@ h2 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     background-color: aliceblue;
   }
+
+  .header p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+  }
   
    h1 {
     text-align: center;
   }
 
-  .warning{
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
+  .alert {
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
     margin-top: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+  .alert:hover{
+    background-color: #f44336f2;
   }
   
-  p {
-    text-align: justify;
-    margin-left: 250px;
-    margin-right: 250px;
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
   }
   
-  #emBreve{
-    text-align: center;
-    font-size: 16px;
+  .closebtn:hover {
+    color: black;
   }
+
 
 @keyframes fadein  {
     from { opacity: 0; }
