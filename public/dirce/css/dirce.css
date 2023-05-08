@@ -15,10 +15,49 @@ body {
 }
 
 .header-sites{
-    background-color: blue;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #8e4dff;
 }
 
+.material-icons {
+  color: white !important;
+}
+
+.col-name{
+  font-size: 36px;
+  color: #f1f1f1;
+  margin-left: 30px;
+}
+
+i {
+  position: relative;
+  text-decoration: none;
+}
+
+i::after {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: #f1f1f1;
+  transition: all 0.3s;
+}
+
+i:hover::after{
+  width: 100%;
+}
+  
+  .btn-voltar i {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 20px;
+  }
+  
    .container {
     display: flex;
     flex-wrap: wrap; /* permite que os itens quebrem para a próxima linha se não couberem na tela */
