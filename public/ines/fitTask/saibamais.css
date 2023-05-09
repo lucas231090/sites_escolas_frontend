@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .tit{
+    font-size: 55px;
+    text-align: center;
+   margin-top: 100px;
+   color: rgb(255, 115, 0);
+  }
+  
+  .res{
+    text-align:center;
+    font-size: 25px;
+    color: white;
+    margin-top: 70px
+  }
+  
+  .crd{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  img{
+    height: 500px;
+    width: 500px;
+    margin-left: 225px;
+  }
+  

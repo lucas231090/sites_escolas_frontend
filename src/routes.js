@@ -22,10 +22,21 @@ router.get('/ines', (request, response) => {
   response.status(200).sendFile(path.join(__dirname + '/../public/ines/index.html'));
 });
 
-router.get('/ines/grupoa', (request, response) => {
-  response.status(200).sendFile(path.join(__dirname + '/../public/ines/grupoA.html'));
+//pagina dos alunos do ines
+//fit task
+router.get('/ines/fittask', (request, response) => {
+  response.status(200).sendFile(path.join(__dirname + '/../public/ines/fitTask/index.html'));
 });
 
+router.get('/ines/fittask/aboutus', (request, response) => {
+  response.status(200).sendFile(path.join(__dirname + '/../public/ines/fitTask/saibamais.html'));
+});
+
+//prox
+
+
+//pagina dos alunos do dirce
+//prox
 router.get('/ines/grupob', (request, response) => {
   response.status(200).sendFile(path.join(__dirname + '/../public/ines/grupoB.html'));
 });

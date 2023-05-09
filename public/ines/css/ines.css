@@ -18,7 +18,7 @@ body {
     padding: 10px;
     display: flex;
     align-items: center;
-    background: radial-gradient(#76b2fe, #b69efe);
+    background: radial-gradient(#f588d8, #c0a3e5);
 }
 
 .material-icons {
@@ -27,7 +27,7 @@ body {
 
 .col-name{
   font-size: 36px;
-  color: #ffffff;
+  color: #f1f1f1;
   margin-left: 30px;
 }
 
