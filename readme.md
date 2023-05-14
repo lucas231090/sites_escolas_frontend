@@ -7,4 +7,4 @@
 ## Quando estiver no ar, o link estará aqui ⬇️      
 | LINK | DESCRIÇÃO |
 | ----------- | ----------- |
-| https://www.fronteditor.dev | SERVIDOR DA DISCIPLINA ESTARÁ AQUI!!!!!! |
+| [https://www.sites-escolas.onrender.com]| Nosso site está no ar!! |
